@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+form {
+  background-color: #fff;
+  padding: 2em;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 0.5em;
+  text-align: left;
+}
+
+th {
+  background-color: #333;
+  color: #fff;
+}
+
+button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  padding: 0.5em 1em;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #444;
+}
+
+
+
+.form-container {
+  max-width: 500px;
+  margin: 2em auto;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.form-input {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+}
+
+.form-input[type="time"] {
+  width: 50%;
+}
+
+
+
+.liste-ouvriers {
+  max-width: 800px;
+  margin: 2em auto;
+}
+
+.liste-ouvriers table {
+  width: 100%;
+}
+
